@@ -135,6 +135,9 @@
                                 <state key="normal" title="Add">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="pressaddrecipe:" destination="Xnl-j4-cIb" eventType="touchUpInside" id="Fvq-uB-m7e"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="uJL-i4-zCa"/>
