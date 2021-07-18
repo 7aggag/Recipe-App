@@ -70,7 +70,7 @@
                                     <constraint firstItem="Gph-Vy-hiu" firstAttribute="leading" secondItem="t6i-ML-q5r" secondAttribute="leading" id="xNS-cd-Smk"/>
                                 </constraints>
                             </stackView>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="beb-fa-WEe">
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="beb-fa-WEe">
                                 <rect key="frame" x="20" y="189.5" width="384" height="200"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="List of ingredients" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XiX-Kb-XV4">
@@ -80,7 +80,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="szv-lL-mpu">
-                                        <rect key="frame" x="0.0" y="20.5" width="384" height="179.5"/>
+                                        <rect key="frame" x="0.0" y="25.5" width="384" height="174.5"/>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                         <color key="textColor" systemColor="labelColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -94,11 +94,10 @@
                                     <constraint firstItem="XiX-Kb-XV4" firstAttribute="top" secondItem="beb-fa-WEe" secondAttribute="top" id="ZPV-D5-XDJ"/>
                                     <constraint firstAttribute="trailing" secondItem="XiX-Kb-XV4" secondAttribute="trailing" id="rCi-eG-Uny"/>
                                     <constraint firstAttribute="height" constant="200" id="rfM-k3-dTQ"/>
-                                    <constraint firstItem="szv-lL-mpu" firstAttribute="top" secondItem="XiX-Kb-XV4" secondAttribute="bottom" id="w1n-SP-vDb"/>
                                     <constraint firstItem="XiX-Kb-XV4" firstAttribute="leading" secondItem="beb-fa-WEe" secondAttribute="leading" id="w7M-KA-6dM"/>
                                 </constraints>
                             </stackView>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="tUm-xw-2wH">
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="tUm-xw-2wH">
                                 <rect key="frame" x="20" y="414.5" width="384" height="200"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Preparation steps" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zZL-8V-cCI">
@@ -108,7 +107,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="bPV-jK-a2D">
-                                        <rect key="frame" x="0.0" y="20.5" width="384" height="179.5"/>
+                                        <rect key="frame" x="0.0" y="25.5" width="384" height="174.5"/>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                         <color key="textColor" systemColor="labelColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -122,7 +121,6 @@
                                     <constraint firstItem="zZL-8V-cCI" firstAttribute="top" secondItem="tUm-xw-2wH" secondAttribute="top" id="Sy3-Gv-jZD"/>
                                     <constraint firstItem="bPV-jK-a2D" firstAttribute="leading" secondItem="tUm-xw-2wH" secondAttribute="leading" id="UHc-OK-iTU"/>
                                     <constraint firstItem="zZL-8V-cCI" firstAttribute="leading" secondItem="tUm-xw-2wH" secondAttribute="leading" id="jX9-6y-gGA"/>
-                                    <constraint firstItem="bPV-jK-a2D" firstAttribute="top" secondItem="zZL-8V-cCI" secondAttribute="bottom" id="pGS-yt-Qyl"/>
                                     <constraint firstAttribute="trailing" secondItem="bPV-jK-a2D" secondAttribute="trailing" id="q8V-eD-dwU"/>
                                     <constraint firstAttribute="bottom" secondItem="bPV-jK-a2D" secondAttribute="bottom" id="wZ9-tA-WYa"/>
                                 </constraints>
@@ -158,6 +156,12 @@
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Add" image="plus" catalog="system" id="LAL-kD-DDr"/>
+                    <connections>
+                        <outlet property="Listofingredients" destination="szv-lL-mpu" id="sQH-y3-Zve"/>
+                        <outlet property="Preparationsteps" destination="bPV-jK-a2D" id="U0R-1j-xgu"/>
+                        <outlet property="addrecipe" destination="N9f-aQ-GzD" id="Wrq-h2-wKk"/>
+                        <outlet property="addrecipebtn" destination="KvR-42-7dx" id="5hG-xU-OP2"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MsN-MN-ecy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
