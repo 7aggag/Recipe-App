@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		520AF20726A450B200500B6F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520AF20626A450B200500B6F /* AppDelegate.swift */; };
 		520AF20926A450B200500B6F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520AF20826A450B200500B6F /* SceneDelegate.swift */; };
-		520AF20B26A450B200500B6F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520AF20A26A450B200500B6F /* ViewController.swift */; };
+		520AF20B26A450B200500B6F /* AddRecipeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520AF20A26A450B200500B6F /* AddRecipeVC.swift */; };
 		520AF20E26A450B200500B6F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 520AF20C26A450B200500B6F /* Main.storyboard */; };
 		520AF21026A450B300500B6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 520AF20F26A450B300500B6F /* Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -18,7 +18,7 @@
 		520AF20326A450B200500B6F /* Recipe App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Recipe App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		520AF20626A450B200500B6F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		520AF20826A450B200500B6F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		520AF20A26A450B200500B6F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		520AF20A26A450B200500B6F /* AddRecipeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddRecipeVC.swift; sourceTree = "<group>"; };
 		520AF20D26A450B200500B6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		520AF20F26A450B300500B6F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		520AF21426A450B300500B6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -56,7 +56,7 @@
 			children = (
 				520AF20626A450B200500B6F /* AppDelegate.swift */,
 				520AF20826A450B200500B6F /* SceneDelegate.swift */,
-				520AF20A26A450B200500B6F /* ViewController.swift */,
+				520AF20A26A450B200500B6F /* AddRecipeVC.swift */,
 				520AF20C26A450B200500B6F /* Main.storyboard */,
 				520AF20F26A450B300500B6F /* Assets.xcassets */,
 				520AF21426A450B300500B6F /* Info.plist */,
@@ -133,7 +133,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				520AF20B26A450B200500B6F /* ViewController.swift in Sources */,
+				520AF20B26A450B200500B6F /* AddRecipeVC.swift in Sources */,
 				520AF20726A450B200500B6F /* AppDelegate.swift in Sources */,
 				520AF20926A450B200500B6F /* SceneDelegate.swift in Sources */,
 			);
