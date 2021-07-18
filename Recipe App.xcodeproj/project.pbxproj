@@ -13,6 +13,7 @@
 		520AF20E26A450B200500B6F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 520AF20C26A450B200500B6F /* Main.storyboard */; };
 		520AF21026A450B300500B6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 520AF20F26A450B300500B6F /* Assets.xcassets */; };
 		520AF21B26A461A300500B6F /* recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520AF21A26A461A300500B6F /* recipe.swift */; };
+		520AF21D26A488EA00500B6F /* Recipes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520AF21C26A488EA00500B6F /* Recipes.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		520AF20F26A450B300500B6F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		520AF21426A450B300500B6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		520AF21A26A461A300500B6F /* recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = recipe.swift; sourceTree = "<group>"; };
+		520AF21C26A488EA00500B6F /* Recipes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipes.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				520AF20626A450B200500B6F /* AppDelegate.swift */,
 				520AF20826A450B200500B6F /* SceneDelegate.swift */,
 				520AF20A26A450B200500B6F /* AddRecipeVC.swift */,
+				520AF21C26A488EA00500B6F /* Recipes.swift */,
 				520AF20C26A450B200500B6F /* Main.storyboard */,
 				520AF20F26A450B300500B6F /* Assets.xcassets */,
 				520AF21426A450B300500B6F /* Info.plist */,
@@ -136,6 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				520AF21D26A488EA00500B6F /* Recipes.swift in Sources */,
 				520AF20B26A450B200500B6F /* AddRecipeVC.swift in Sources */,
 				520AF20726A450B200500B6F /* AppDelegate.swift in Sources */,
 				520AF20926A450B200500B6F /* SceneDelegate.swift in Sources */,
