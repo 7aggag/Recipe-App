@@ -12,7 +12,6 @@
 		520AF20B26A450B200500B6F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520AF20A26A450B200500B6F /* ViewController.swift */; };
 		520AF20E26A450B200500B6F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 520AF20C26A450B200500B6F /* Main.storyboard */; };
 		520AF21026A450B300500B6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 520AF20F26A450B300500B6F /* Assets.xcassets */; };
-		520AF21326A450B300500B6F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 520AF21126A450B300500B6F /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,7 +21,6 @@
 		520AF20A26A450B200500B6F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		520AF20D26A450B200500B6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		520AF20F26A450B300500B6F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		520AF21226A450B300500B6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		520AF21426A450B300500B6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -61,7 +59,6 @@
 				520AF20A26A450B200500B6F /* ViewController.swift */,
 				520AF20C26A450B200500B6F /* Main.storyboard */,
 				520AF20F26A450B300500B6F /* Assets.xcassets */,
-				520AF21126A450B300500B6F /* LaunchScreen.storyboard */,
 				520AF21426A450B300500B6F /* Info.plist */,
 			);
 			path = "Recipe App";
@@ -124,7 +121,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				520AF21326A450B300500B6F /* LaunchScreen.storyboard in Resources */,
 				520AF21026A450B300500B6F /* Assets.xcassets in Resources */,
 				520AF20E26A450B200500B6F /* Main.storyboard in Resources */,
 			);
@@ -152,14 +148,6 @@
 				520AF20D26A450B200500B6F /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		520AF21126A450B300500B6F /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				520AF21226A450B300500B6F /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -295,7 +283,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "haggag.Recipe-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -313,7 +301,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "haggag.Recipe-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
